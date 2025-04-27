@@ -1,6 +1,7 @@
-# Nuxt Minimal Starter
+# Prevent CORS errors in development
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a simple nuxt app with middleware to prevent CORS errors in development. 
+It uses the `@nuxtjs/proxy` module to proxy requests to the API server.
 
 ## Setup
 
